@@ -4,13 +4,13 @@
 # Then replace 'pip install' with 'uv pip install' in the commands below.
 
 install:
-	pip install -U pip
-	pip install -r requirements.txt
-	pip install -e .
+	python -m pip install --upgrade pip
+	python -m pip install -r requirements.txt
+	python -m pip install -e .
 
 dev: install
-	pip install -r requirements_dev.txt
-	pre-commit install
+	python -m pip install -r requirements_dev.txt
+	python -m pip install pre-commit
 
 data:
 	python -m teamartemisIV.data.make_dataset
