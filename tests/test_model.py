@@ -6,8 +6,8 @@ from pathlib import Path
 
 import pytest
 
-from teamartemisIV.models.base import BaseModel
-from teamartemisIV.models.model import Model
+from teamartemisiv.models.base import BaseModel
+from teamartemisiv.models.model import Model
 
 
 class TestModel:

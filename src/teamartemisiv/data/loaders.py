@@ -10,7 +10,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from teamartemisIV.config import PROCESSED_DATA_DIR, RAW_DATA_DIR
+from teamartemisiv.config import PROCESSED_DATA_DIR, RAW_DATA_DIR
 from teamartemisIV.logging_config import get_logger
 
 logger = get_logger(__name__)

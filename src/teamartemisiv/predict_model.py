@@ -5,9 +5,9 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-from teamartemisIV.config import MODELS_DIR, PROCESSED_DATA_DIR
-from teamartemisIV.logging_config import get_logger, setup_logging
-from teamartemisIV.models.model import Model
+from teamartemisiv.config import MODELS_DIR, PROCESSED_DATA_DIR
+from teamartemisiv.logging_config import get_logger, setup_logging
+from teamartemisiv.models.model import Model
 
 logger = get_logger(__name__)
 

@@ -1,6 +1,6 @@
 """Plotting utilities."""
 
-from teamartemisIV.visualization.visualize import (
+from teamartemisiv.visualization.visualize import (
     plot_confusion_matrix,
     plot_training_history,
 )

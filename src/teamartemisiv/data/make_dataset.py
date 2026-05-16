@@ -5,8 +5,8 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-from teamartemisIV.config import PROCESSED_DATA_DIR, RAW_DATA_DIR
-from teamartemisIV.logging_config import get_logger, setup_logging
+from teamartemisiv.config import PROCESSED_DATA_DIR, RAW_DATA_DIR
+from teamartemisiv.logging_config import get_logger, setup_logging
 
 logger = get_logger(__name__)
 

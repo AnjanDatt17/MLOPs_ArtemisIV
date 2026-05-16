@@ -14,7 +14,7 @@ from typing import Any
 
 import joblib
 
-from teamartemisIV.models.base import BaseModel
+from teamartemisiv.models.base import BaseModel
 
 
 class Model(BaseModel):

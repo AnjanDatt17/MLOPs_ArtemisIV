@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import pandas as pd
 
-from teamartemisIV.logging_config import get_logger
+from teamartemisiv.logging_config import get_logger
 
 logger = get_logger(__name__)
 
