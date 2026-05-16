@@ -1,0 +1,70 @@
+N999 Invalid module name: 'teamartemisIV'
+--> src\teamartemisIV\__init__.py:1:1
+
+N999 Invalid module name: 'teamartemisIV'
+--> src\teamartemisIV\data\__init__.py:1:1
+
+N999 Invalid module name: 'teamartemisIV'
+--> src\teamartemisIV\evaluation\__init__.py:1:1
+
+N999 Invalid module name: 'teamartemisIV'
+--> src\teamartemisIV\features\__init__.py:1:1
+
+N999 Invalid module name: 'teamartemisIV'
+--> src\teamartemisIV\models\__init__.py:1:1
+
+N803 Argument name `X` should be lowercase
+  --> src\teamartemisIV\models\base.py:17:19
+   |
+16 |     @abstractmethod
+17 |     def fit(self, X: Any, y: Any) -> BaseModel:
+   |                   ^^^^^^
+18 |         """Fit the model to training data."""
+   |
+
+N803 Argument name `X` should be lowercase
+  --> src\teamartemisIV\models\base.py:21:23
+   |
+20 |     @abstractmethod
+21 |     def predict(self, X: Any) -> Any:
+   |                       ^^^^^^
+22 |         """Return predictions for ``X``."""
+   |
+
+N803 Argument name `X` should be lowercase
+  --> src\teamartemisIV\models\model.py:23:19
+   |
+21 |     """Reference model scaffold."""
+22 |
+23 |     def fit(self, X: Any, y: Any) -> Model:
+   |                   ^^^^^^
+24 |         raise NotImplementedError("Implement Model.fit for your task")
+   |
+
+N803 Argument name `X` should be lowercase
+  --> src\teamartemisIV\models\model.py:26:23
+   |
+24 |         raise NotImplementedError("Implement Model.fit for your task")
+25 |
+26 |     def predict(self, X: Any) -> Any:
+   |                       ^^^^^^
+27 |         raise NotImplementedError("Implement Model.predict for your task")
+   |
+
+E501 Line too long (91 > 88)
+  --> src\teamartemisIV\predict_model.py:16:89
+   |
+15 | def predict(model_path: Path, input_path: Path, output_path: Path) -> None:
+16 |     """Load a trained model and write predictions for ``input_path`` to ``output_path``."""
+   |                                                                                         ^^^
+17 |     logger.info("Loading model from %s", model_path)
+18 |     model = Model.load(model_path)
+   |
+
+N999 Invalid module name: 'teamartemisIV'
+--> src\teamartemisIV\utils\__init__.py:1:1
+
+N999 Invalid module name: 'teamartemisIV'
+--> src\teamartemisIV\visualization\__init__.py:1:1
+
+Found 12 errors.
